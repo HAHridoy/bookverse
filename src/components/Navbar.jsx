@@ -10,9 +10,6 @@ export default function Navbar() {
           <Link href={'/'}>HOME</Link>  
         </li>
         <li>
-          <Link href={'/about'}>ABOUT US</Link>  
-        </li>
-        <li>
           <Link href={'/allbooks'}>BOOKS</Link>  
         </li>
         <li>
@@ -23,6 +20,9 @@ export default function Navbar() {
         </li>
         <li>
           <Link href={'/blogs'}>BLOG</Link>  
+        </li>
+        <li>
+          <Link href={'/about'}>ABOUT US</Link>  
         </li>
 
       </>
@@ -42,7 +42,7 @@ export default function Navbar() {
         {navMenu()}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a className="font-bold text-xl">BookVerse</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
