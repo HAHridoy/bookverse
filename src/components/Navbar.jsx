@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -42,7 +43,9 @@ export default function Navbar() {
         {navMenu()}
       </ul>
     </div>
-    <a className="font-bold text-xl">BookVerse</a>
+    <Link href={'/'} className="font-bold text-xl">
+      <Image src="/logo.png" alt="Book Shop Logo" width={60} height={60} className="rounded inline-block ml-3" />
+    </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
