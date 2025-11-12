@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between">
       {/* Hero Section */}
-      <section className="w-full bg-linear-to-r from-blue-600 to-blue-800 text-white py-20 px-6">
+      <section className="w-full bg-linear-to-r from-blue-500 to-blue-800 text-white py-20 px-6">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-4">Welcome to BookVerse!</h1>
           <p className="text-xl mb-8 text-blue-100">
@@ -47,7 +47,7 @@ export default function Home() {
       </section>
 
       {/* Featured Books Section */}
-      <section className="w-full py-16 px-6 bg-gray-50">
+      <section className="w-full py-16 px-6 bg-[#FCECEC]">
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-between items-center mb-10">
             <div>
@@ -130,8 +130,51 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Newsletter Section */}
+      <section className="w-full flex justify-center items-center py-16 px-4 bg-pink-50">
+        <div className="bg-[#f25c3c] text-white rounded-lg w-full max-w-5xl p-8 md:p-12 text-center shadow-lg">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Subscribe to Our Newsletter</h2>
+          <p className="text-base md:text-lg mb-8 max-w-2xl mx-auto">
+            Sed eu feugiat amet, libero ipsum enim pharetra hac dolor sit amet, consectetur.
+            Elit adipiscing enim pharetra hac.
+          </p>
+
+          <form className="flex flex-col sm:flex-row justify-center items-center bg-white rounded-lg shadow-md overflow-hidden mx-auto max-w-xl">
+            <div className="flex items-center w-full sm:w-auto px-3 py-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 text-gray-400 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
+                  d="M16 12H8m0 0l4-4m-4 4l4 4M3 12a9 9 0 1118 0 9 9 0 01-18 0z"
+                />
+              </svg>
+              <input
+                type="email"
+                placeholder="youremail123@gmail.com"
+                required
+                className="flex-1 px-2 py-2 border-none focus:outline-none text-gray-700 placeholder-gray-400"
+              />
+            </div>
+            <button
+              type="submit"
+              className="bg-[#e84b2c] hover:bg-[#d63c1f] text-white px-8 py-3 font-semibold transition-colors w-full sm:w-auto rounded-3xl"
+            >
+              SUBSCRIBE
+            </button>
+          </form>
+        </div>
+      </section>
+
+
       {/* CTA Section */}
-      <section className="w-full bg-blue-600 text-white py-16 px-6">
+      <section className="w-full bg-blue-500 text-white py-16 px-6">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Explore?</h2>
           <p className="text-lg mb-8 text-blue-100">

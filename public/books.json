@@ -8,7 +8,7 @@
     "category": "Fiction",
     "availability": true,
     "in_stock": true,
-    "image": "https://example.com/images/the-last-orchard.jpg"
+    "image": "/books-image/1.jpg"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "category": "Technology",
     "availability": true,
     "in_stock": true,
-    "image": "https://example.com/images/practical-microservices.jpg"
+    "image": "/books-image/2.jpg"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "category": "Essays",
     "availability": false,
     "in_stock": false,
-    "image": "https://example.com/images/notes-from-quiet-rivers.jpg"
+    "image": "/books-image/3.jpg"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "category": "Self-Help",
     "availability": true,
     "in_stock": true,
-    "image": "https://example.com/images/the-busy-mind-workbook.jpg"
+    "image": "/books-image/4.jpg"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "category": "History",
     "availability": true,
     "in_stock": true,
-    "image": "https://example.com/images/tides-of-empire.jpg"
+    "image": "/books-image/5.jpg"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "category": "Fantasy",
     "availability": false,
     "in_stock": false,
-    "image": "https://example.com/images/starlight-labyrinth.jpg"
+    "image": "/books-image/6.jpg"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "category": "Children",
     "availability": true,
     "in_stock": true,
-    "image": "https://example.com/images/little-cities-big-dreams.jpg"
+    "image": "/books-image/7.jpg"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "category": "Cooking",
     "availability": true,
     "in_stock": true,
-    "image": "https://example.com/images/cooking-in-a-hurry.jpg"
+    "image": "/books-image/8.jpg"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "category": "Biography",
     "availability": true,
     "in_stock": true,
-    "image": "https://example.com/images/portraits-of-courage.jpg"
+    "image": "/books-image/9.jpg"
   },
   {
     "id": 10,
@@ -107,6 +107,6 @@
     "category": "Poetry",
     "availability": false,
     "in_stock": false,
-    "image": "https://example.com/images/pocket-poets-new-voices.jpg"
+    "image": "/books-image/10.jpg"
   }
 ]
