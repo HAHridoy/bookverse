@@ -48,7 +48,16 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between">
       {/* Hero Section */}
-      <section className="w-full bg-linear-to-r from-blue-500 to-blue-800 text-white py-20 px-6">
+      <section
+        className="w-full text-white py-20 px-6 relative"
+        style={{
+          backgroundImage:
+            "linear-gradient(135deg, rgba(25, 33, 71, 0.8) 0%, rgba(40, 70, 140, 0.7) 100%), url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1200 600%22><defs><pattern id=%22books%22 x=%220%22 y=%220%22 width=%22200%22 height=%220%22 patternUnits=%22userSpaceOnUse%22><rect fill=%22%23f3f4f6%22 x=%220%22 y=%220%22 width=%22200%22 height=%22600%22/><rect fill=%22%232563eb%22 x=%2220%22 y=%2250%22 width=%2230%22 height=%22500%22/><rect fill=%22%233b82f6%22 x=%2260%22 y=%2270%22 width=%2235%22 height=%22480%22/><rect fill=%22%231e40af%22 x=%22110%22 y=%2280%22 width=%2240%22 height=%22470%22/></pattern></defs><rect width=%221200%22 height=%22600%22 fill=%22%231f2937%22/><rect width=%221200%22 height=%22600%22 fill=%22url(%23books)%22 opacity=%220.6%22/></svg>')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-4">Welcome to BookVerse!</h1>
           <p className="text-xl mb-8 text-blue-100">
@@ -104,8 +113,6 @@ export default function Home() {
           )}
         </div>
       </section>
-
-      
 
       {/* Info Section */}
       <section className="w-full py-16 px-6">

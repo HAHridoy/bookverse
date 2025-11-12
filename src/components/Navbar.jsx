@@ -16,7 +16,7 @@ export default function Navbar() {
           <Link href={"/contacts"}>CONTACT US</Link>
         </li>
         <li>
-          <Link href={"/blogs"}>BLOG</Link>
+          <Link href={"/blogs"}>BLOGS</Link>
         </li>
         <li>
           <Link href={"/about"}>ABOUT US</Link>
@@ -25,7 +25,7 @@ export default function Navbar() {
     );
   };
   return (
-    <div className="navbar bg-[#173F5F] text-white">
+    <div className="navbar bg-[#173F5F] text-white sticky top-0 z-50 shadow-lg">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
