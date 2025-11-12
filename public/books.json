@@ -6,16 +6,20 @@
     "description": "A lyrical, character-driven tale of a small town facing change when a centuries-old orchard is threatened by developers. Through interwoven perspectives, the novel explores memory, loss, and the stubborn roots that hold a community together.",
     "price": 12.99,
     "category": "Fiction",
-    "availability": true
+    "availability": true,
+    "in_stock": true,
+    "image": "https://example.com/images/the-last-orchard.jpg"
   },
   {
     "id": 2,
     "book_name": "Practical Microservices",
     "author_name": "Devon Halpert",
     "description": "A hands-on guide for software engineers building resilient microservice systems. Covers design patterns, testing strategies, deployment pipelines, and real-world case studies to help teams scale services reliably.",
-    "price": 34.50,
+    "price": 34.5,
     "category": "Technology",
-    "availability": true
+    "availability": true,
+    "in_stock": true,
+    "image": "https://example.com/images/practical-microservices.jpg"
   },
   {
     "id": 3,
@@ -24,25 +28,31 @@
     "description": "A collection of contemplative essays and short memoir fragments about travel, childhood riverside afternoons, and the small rituals that shape identity. Gentle, observant prose that rewards slow reading.",
     "price": 9.75,
     "category": "Essays",
-    "availability": false
+    "availability": false,
+    "in_stock": false,
+    "image": "https://example.com/images/notes-from-quiet-rivers.jpg"
   },
   {
     "id": 4,
     "book_name": "The Busy Mind Workbook",
     "author_name": "Dr. Lena Ortiz",
     "description": "An interactive self-help workbook with practical exercises to manage anxiety and improve focus. Includes journaling prompts, breathing techniques, and a 30-day plan to build calmer habits.",
-    "price": 18.00,
+    "price": 18.0,
     "category": "Self-Help",
-    "availability": true
+    "availability": true,
+    "in_stock": true,
+    "image": "https://example.com/images/the-busy-mind-workbook.jpg"
   },
   {
     "id": 5,
     "book_name": "Tides of Empire: A Short History",
     "author_name": "Christopher W. Blake",
     "description": "A compact but sweeping history tracing several empires across continents and centuries. The author synthesizes political, economic, and cultural forces to explain rises and collapses for general readers.",
-    "price": 21.20,
+    "price": 21.2,
     "category": "History",
-    "availability": true
+    "availability": true,
+    "in_stock": true,
+    "image": "https://example.com/images/tides-of-empire.jpg"
   },
   {
     "id": 6,
@@ -51,25 +61,31 @@
     "description": "An epic fantasy of lost maps, star-guided navigation, and a reluctant cartographer who must decode an ancient celestial language to save her city. Rich worldbuilding, layered magic, and a focus on found family.",
     "price": 27.99,
     "category": "Fantasy",
-    "availability": false
+    "availability": false,
+    "in_stock": false,
+    "image": "https://example.com/images/starlight-labyrinth.jpg"
   },
   {
     "id": 7,
     "book_name": "Little Cities, Big Dreams",
     "author_name": "Hannah J. Park",
     "description": "Brightly illustrated stories for young readers about curiosity, friendship, and everyday adventures. Each story is short and designed for read-aloud sharing with simple lessons about empathy and exploration.",
-    "price": 8.40,
+    "price": 8.4,
     "category": "Children",
-    "availability": true
+    "availability": true,
+    "in_stock": true,
+    "image": "https://example.com/images/little-cities-big-dreams.jpg"
   },
   {
     "id": 8,
     "book_name": "Cooking in a Hurry",
     "author_name": "Marta Nguyen",
     "description": "A practical cookbook for busy people: 100 recipes that are quick, nutritious, and flavorful. Chapters organized by time (10, 20, 30 minutes) plus tips for batch-cooking and smart pantry staples.",
-    "price": 16.50,
+    "price": 16.5,
     "category": "Cooking",
-    "availability": true
+    "availability": true,
+    "in_stock": true,
+    "image": "https://example.com/images/cooking-in-a-hurry.jpg"
   },
   {
     "id": 9,
@@ -78,7 +94,9 @@
     "description": "A moving biography collection profiling ordinary people who took extraordinary stands in their communities. Each chapter focuses on a single life, weaving personal history with the larger social moment.",
     "price": 19.95,
     "category": "Biography",
-    "availability": true
+    "availability": true,
+    "in_stock": true,
+    "image": "https://example.com/images/portraits-of-courage.jpg"
   },
   {
     "id": 10,
@@ -87,6 +105,8 @@
     "description": "An anthology showcasing emerging poets from diverse backgrounds. Short, evocative pieces that experiment with form and voice, perfect for dipping into or reading straight through.",
     "price": 11.25,
     "category": "Poetry",
-    "availability": false
+    "availability": false,
+    "in_stock": false,
+    "image": "https://example.com/images/pocket-poets-new-voices.jpg"
   }
 ]
