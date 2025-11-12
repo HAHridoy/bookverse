@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Signup() {
@@ -15,6 +16,8 @@ export default function Signup() {
           <div><a className="link link-hover">Forgot password?</a></div>
           <button className="btn btn-neutral mt-4">Login</button>
         </fieldset>
+        <p className='underline'>Already have an account? Please<Link href="/login" className="btn btn-link">Login</Link> </p>
+        
       </div>
     </div>
 </div>

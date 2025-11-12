@@ -66,9 +66,6 @@ export default function Navbar() {
         <ul className="menu menu-horizontal px-1">{navMenu()}</ul>
       </div>
       <div className="navbar-end">
-        <Link href={"/login"} className="btn">
-          Login
-        </Link>
         <Link href={"/signup"} className="btn btn-primary ml-2">
           Sign Up
         </Link>
