@@ -10,10 +10,15 @@ export default function AllBooks() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
 
+  
+
   useEffect(() => {
     async function fetchBooks() {
       try {
-        const response = await fetch('/books.json');
+          const response = await fetch('/api/books');
+
+        console.log("Books fetched:", response);
+        // const response = await fetch('/books.json');
         if (!response.ok) throw new Error('Failed to fetch books');
         const data = await response.json();
         setBooks(data);
