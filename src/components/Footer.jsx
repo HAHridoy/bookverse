@@ -6,10 +6,10 @@ export default function Footer() {
   
   <nav>
     <h6 className="footer-title font-bold text-black">Company</h6>
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Books</a>
-    <a className="link link-hover">Blogs</a>
+    <a className="link link-hover" href='/about'>About us</a>
+    <a className="link link-hover" href='/contacts'>Contact</a>
+    <a className="link link-hover" href='/allbooks'>Books</a>
+    <a className="link link-hover" href='/blogs'>Blogs</a>
   </nav>
   <nav>
     <h6 className="footer-title font-bold text-black">Important Links</h6>
