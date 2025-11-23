@@ -3,7 +3,7 @@ import { signOut, useSession } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { ShoppingCart } from "lucide-react";
+import { ShoppingCart, Settings } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 export default function Navbar() {
@@ -79,17 +79,19 @@ export default function Navbar() {
         <ul className="menu menu-horizontal px-1">{navMenu()}</ul>
       </div>
       <div className="navbar-end">
-        <button
-          onClick={handleCartClick}
-          className="btn btn-ghost"
-        >
+        <button onClick={handleCartClick} className="btn btn-ghost">
           <Link href={session ? "/cart" : "#"}>
             <ShoppingCart size={20} />
           </Link>
         </button>
-        
+
         {status === "authenticated" ? (
           <>
+            {session?.user?.email === "hosainoolalam123@gmail.com" && (
+              <Link href="/admin" className="btn btn-ghost">
+                <Settings size={20} />
+              </Link>
+            )}
             <span className="mx-2">Welcome, {session?.user?.name}</span>
             <button
               className="btn btn-secondary hover:bg-orange-400"
