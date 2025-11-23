@@ -224,9 +224,12 @@ export default function CartPage() {
             >
               Continue Shopping
             </Link>
-            <button className="flex-1 bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 font-semibold">
+            <Link
+              href="/checkout"
+              className="flex-1 bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 font-semibold text-center"
+            >
               Proceed to Checkout
-            </button>
+            </Link>
           </div>
         </div>
       </div>
